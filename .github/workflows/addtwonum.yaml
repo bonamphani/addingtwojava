@@ -19,6 +19,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
+        distribution: 'adopt'
         java-version: '11' # You can change this to the version you need (e.g., 8, 17, etc.)
 
     - name: Compile Java code
