@@ -23,8 +23,8 @@ jobs:
         java-version: '11' # You can change this to the version you need (e.g., 8, 17, etc.)
 
     - name: Compile Java code
-      run: javac AddNumbers.java
+      run: javac main.java
 
     - name: Run Java program
-      run: java AddNumbers
+      run: java main
 
